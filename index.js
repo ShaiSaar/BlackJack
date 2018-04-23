@@ -11,6 +11,7 @@ if (userName=="yes"){
 
         if(sum==21){
             console.log("CONGRATULATIONS!!!! You Won!")
+            return;
         }
 
         console.log("You got: "+num);
