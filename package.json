@@ -1,0 +1,10 @@
+{
+  "name": "BlackJack",
+  "version": "0.0.1",
+  "dependencies": {
+    "readline-sync": "^1.4.9"
+  },
+  "scripts": {
+    "start": "npm install readline-sync"
+  }
+}
