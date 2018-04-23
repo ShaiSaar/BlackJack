@@ -4,7 +4,8 @@ var userName = readlineSync.question('Do you want to play BlackJack? yes/no \n')
 
 if (userName=="yes"){
     var sum = 0;
-    var num =Math.floor((Math.random()+1)*10);
+    var num =Math.floor((Math.random())*10);
+    if (num==0){num=1}
     sum+=num;
     while(sum<22){
         // if(num==1){
@@ -18,7 +19,8 @@ if (userName=="yes"){
             console.log("Thank you for playing, you score is "+ sum);
             return;
         } else {
-            num =Math.floor((Math.random()+1)*10);
+            num =Math.floor((Math.random())*10);
+            if (num==0){num=1}
             sum+=num;
         }
     }
