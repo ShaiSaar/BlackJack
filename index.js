@@ -8,9 +8,11 @@ if (userName=="yes"){
     if (num==0){num=1}
     sum+=num;
     while(sum<22){
-        // if(num==1){
-        //     var answer = readlineSync.question('Do you want to play BlackJack? yes/no');
-        // }
+
+        if(sum==21){
+            console.log("CONGRATULATIONS!!!! You Won!")
+        }
+       
         console.log("You got: "+num);
         console.log("Your sum total is: "+sum);
         console.log("");
