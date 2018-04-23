@@ -12,7 +12,7 @@ if (userName=="yes"){
         if(sum==21){
             console.log("CONGRATULATIONS!!!! You Won!")
         }
-       
+
         console.log("You got: "+num);
         console.log("Your sum total is: "+sum);
         console.log("");
@@ -26,6 +26,7 @@ if (userName=="yes"){
             sum+=num;
         }
     }
+    console.log("You got: "+num);
     console.log("OOHHH you lost! your score is "+ sum);
 } else if(userName=="no"){
     console.log("Chicken!!!!!");
